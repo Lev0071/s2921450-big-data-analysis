@@ -1,0 +1,19 @@
+# import modules
+from sklearn import datasets
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
+from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import cross_val_score
+from sklearn.neighbours import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.naive_bayes import GaussianNB
+from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LogisticRegression
+
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
+#Load dataset
+digits = datasets.load_digits()
